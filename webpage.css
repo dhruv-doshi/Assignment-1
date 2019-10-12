@@ -1,20 +1,45 @@
-﻿.upper-img{
-    width:100vw;
-    position: absolute;
-    margin:0 0 0 0;
-    padding: 0 0 0 0;
-   
-}
- .logo {
-     position:absolute;
-     margin:4.5vw 0 0 4.5vw;
+﻿@media only screen and (max-width: 375px) {
+
+    .upper-img {
+        width: 100vw;
+
+        margin: 0 0 0 0;
+        padding: 8vh;
+    }
+
+    .logo {
+        position: absolute;
+        margin: 4.5vw 0 0 4.5vw;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(images/bg-intro.svg);
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-size: cover;
+        overflow-x: hidden;
+    }
 }
 
-body {
-    margin:0;
-    padding:0;
-    background-image: url(images/bg-intro.svg);
-    background-repeat: no-repeat;
-    background-position:initial;
-    background-size:cover;
- }
+    .mode {
+        float: left;
+        position: absolute;
+        overflow-x: hidden;
+    }
+
+    .upper-img {
+        width: 30vw;
+        margin: 0 0 0 0;
+        padding: 8vh;
+    }
+    body {
+             
+    }
+    
+
+.column {
+    width: 33.33vw;
+  
+}
